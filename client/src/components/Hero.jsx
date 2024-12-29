@@ -4,7 +4,7 @@ import HeroImg from '../assets/images/20241104_155018.jpg'
 
 const Hero = () => {
   return (
-    <section className=" pt-5 " id=" hero">
+    <section className=" pt-5 min-vh-100 d-flex justify-content-center align-items-center" id="hero">
       <div className=" container py-md-5">
         <div className=" row">
           <div className=" col-md-6 d-flex flex-column align-items-start justify-content-center mt-5 mt-md-0">

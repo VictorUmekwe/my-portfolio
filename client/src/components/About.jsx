@@ -3,12 +3,12 @@ import AboutImg from "../assets/images/FB_IMG_1735380517138.jpg";
 import ViewWorkBtn from "./ViewWorkBtn";
 const About = () => {
   return (
-    <div className=" bg-dark text-light py-5" id="about">
+    <div className=" bg-dark text-light py-5 min-vh-100 d-flex justify-content-center align-items-center" id="about">
       <div className=" container">
         <div className=" flex-column-reverse flex-md-row row">
           <div className=" col-md-6 mt-5 mt-md-0 d-flex flex-column justify-content-center align-items-center">
                 <img
-                className=" img-fluid w-75 shadow "
+                className=" img-fluid w-75 shadow rounded"
                 src={AboutImg}
                 alt="about img"/>
           </div>
